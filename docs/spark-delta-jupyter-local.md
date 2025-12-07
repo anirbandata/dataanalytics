@@ -206,7 +206,7 @@ print("Spark and Delta Lake are working correctly!")
 If you need to add more packages in the future, you can update the `environment.yml` file and apply the changes:
 
 ```bash
-conda env update -f environment.yml --prune
+conda env update -f spark-delta-jupyter.yml --prune
 ```
 
 The `--prune` flag removes packages that are no longer in the YAML file.
