@@ -82,7 +82,7 @@ conda --version
 
 ### Create the Environment YAML File
 
-Create a file named `environment.yml` in your project root directory with the following configuration:
+Create a file named `spark-delta-jupyter.yml` in your project root directory with the following configuration:
 
 ```yaml
 name: spark-delta_jupyter
