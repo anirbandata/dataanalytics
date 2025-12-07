@@ -1,0 +1,16 @@
+name: spark-delta_jupyter
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - ipykernel
+  - nb_conda
+  - jupyterlab
+  - jupyterlab_code_formatter
+  - isort
+  - black
+  - pyspark=3.5.0
+  - pip
+  - pip:
+    - delta-spark==3.2.0
