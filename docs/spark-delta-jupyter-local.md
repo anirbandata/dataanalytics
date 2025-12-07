@@ -108,7 +108,7 @@ dependencies:
 Navigate to your project directory and create the environment:
 
 ```bash
-conda env create -f environment.yml
+conda env create -f spark-delta-jupyter.yml
 ```
 
 This command will:
